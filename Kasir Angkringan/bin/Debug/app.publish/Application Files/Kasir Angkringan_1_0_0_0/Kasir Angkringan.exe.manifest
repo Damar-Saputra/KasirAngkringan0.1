@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Kasir Angkringan.exe" version="1.0.0.0" publicKeyToken="55fe902dcee41056" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Kasir Angkringan" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Kasir Angkringan.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Kasir Angkringan.exe" size="9752">
+      <assemblyIdentity name="Kasir Angkringan" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>RYEOWZHtOU0GtS9XiGxi8n82zPA0BWMgSXtA8LQvsvc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Kasir Angkringan.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=LAPTOP-VHM1FF8V\PAVILON GAMING" issuerKeyHash="d5abb26a1a7b254e3853d9fa2d9a7ed6a520b79a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>lNco7rwCmEXJsHuBuVpNuWgLQS/Z6g8PCMkY84whebI=</DigestValue></Reference></SignedInfo><SignatureValue>eYbmhhUwNo/hjxzPBC5Mfqqdxihzf1gj1knplYGZEvQUr+SSunKis1MA/wUwjoBcjafH7+aIz9UzqFtXEv5gU2mfxLrKPElo/mHh7vTAs1Mx7KLTMafw55SKqrU3o6JSxE9+9b0f+w4qD+3j5Vg/++6Rbl4LInUSwLdnEpUaZC8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>v/iKdqmn4wmq89bKuc6PR1m1WV9jY9KiecfPQOW5Lalbfi9b6+rd7ANx9y+QojsA4E1k3fkGwUzHefb4lHaBUN4KDSx0rHepcFpquuI9XFglhcoMxMM+I5XLOJMj+K9NoACF1GpDg67PtY00ebH5oM6IRbvTnxjdA/E66TgEWmk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b279218cf318c9080f0fead92f410b68b94d5ab9817bb0c9459802bcee28d794" Description="" Url=""><as:assemblyIdentity name="Kasir Angkringan.exe" version="1.0.0.0" publicKeyToken="55fe902dcee41056" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-VHM1FF8V\PAVILON GAMING</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>/mP/DacMOZSoNDBJiIZz2wgyY5gcnbYfpY47ue3m95s=</DigestValue></Reference></SignedInfo><SignatureValue>FW2E7qv5MbbkkINFp2JCOcUaQQP3kz+kFGHs2CSBubO4/daPSxVq+bY0a0t0/UMLininNnrikccD74Pm6tuSyZTfEYzHMh3X5dJMjubWZhJlO7fqY0DS8uuWutfmI2ad5tkrGUvLZcP35YstpS1yd9lOTvdJaT6Y7ioIk4L1wUw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>v/iKdqmn4wmq89bKuc6PR1m1WV9jY9KiecfPQOW5Lalbfi9b6+rd7ANx9y+QojsA4E1k3fkGwUzHefb4lHaBUN4KDSx0rHepcFpquuI9XFglhcoMxMM+I5XLOJMj+K9NoACF1GpDg67PtY00ebH5oM6IRbvTnxjdA/E66TgEWmk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICETCCAXqgAwIBAgIQO7ZX2aVzZJRF7jPEZgOLeDANBgkqhkiG9w0BAQsFADBHMUUwQwYDVQQDHjwATABBAFAAVABPAFAALQBWAEgATQAxAEYARgA4AFYAXABQAEEAVgBJAEwATwBOACAARwBBAE0ASQBOAEcwHhcNMjAwNzEzMTQ0NjIzWhcNMjEwNzEzMjA0NjIzWjBHMUUwQwYDVQQDHjwATABBAFAAVABPAFAALQBWAEgATQAxAEYARgA4AFYAXABQAEEAVgBJAEwATwBOACAARwBBAE0ASQBOAEcwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAL/4inapp+MJqvPWyrnOj0dZtVlfY2PSonnHz0DluS2pW34vW+vq3ewDcfcvkKI7AOBNZN35BsFMx3n2+JR2gVDeCg0sdKx3qXBaarriPVxYJYXKDMTDPiOVyziTI/ivTaAAhdRqQ4Ouz7WNNHmx+aDOiEW7058Y3QPxOuk4BFppAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAKh+J4DJ2HZuiEaD65IjH5UcSXSPmmul0+AAxA8SasEe6QUWh3S7yRrt6OJrGCAtiJ1B5rc4SEJi06OtR7VUer7YSvvy2uX0rObUHnNO/X4G3kJ74BjNjTVn9/2tTjmsfUkyi9vYugGOPqfZePcRn73FpyqB1fq75q88MvKiuK4I=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,11 @@
+C:\Users\PAVILON GAMING\source\repos\Kasir Angkringan\Kasir Angkringan\bin\Debug\Kasir Angkringan.exe.config
+C:\Users\PAVILON GAMING\source\repos\Kasir Angkringan\Kasir Angkringan\bin\Debug\Kasir Angkringan.exe
+C:\Users\PAVILON GAMING\source\repos\Kasir Angkringan\Kasir Angkringan\bin\Debug\Kasir Angkringan.pdb
+C:\Users\PAVILON GAMING\source\repos\Kasir Angkringan\Kasir Angkringan\obj\Debug\Kasir Angkringan.csprojAssemblyReference.cache
+C:\Users\PAVILON GAMING\source\repos\Kasir Angkringan\Kasir Angkringan\obj\Debug\Kasir Angkringan.exe
+C:\Users\PAVILON GAMING\source\repos\Kasir Angkringan\Kasir Angkringan\obj\Debug\Kasir Angkringan.pdb
+C:\Users\PAVILON GAMING\source\repos\Kasir Angkringan\Kasir Angkringan\bin\Debug\Kasir Angkringan.exe.manifest
+C:\Users\PAVILON GAMING\source\repos\Kasir Angkringan\Kasir Angkringan\bin\Debug\Kasir Angkringan.application
+C:\Users\PAVILON GAMING\source\repos\Kasir Angkringan\Kasir Angkringan\obj\Debug\Kasir Angkringan.TrustInfo.xml
+C:\Users\PAVILON GAMING\source\repos\Kasir Angkringan\Kasir Angkringan\obj\Debug\Kasir Angkringan.exe.manifest
+C:\Users\PAVILON GAMING\source\repos\Kasir Angkringan\Kasir Angkringan\obj\Debug\Kasir Angkringan.application
